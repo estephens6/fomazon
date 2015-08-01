@@ -1,8 +1,121 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+<link rel="stylesheet" href="minimal.css">
+<link rel="stylesheet" href="styles.css">
+<header>
+	<img class='logo' class='float-left' src="http://www.purplepawn.com/wp-content/uploads/2010/02/Flipoutz-fo-logo.jpg">foMazon</header>
 
-<body>
+<nav>
+<ul>
+<li><a href = "index.html">books</a></li> 
+<li><a href = "music.html">music</a></li>
+</ul>
+</nav>
+
+</head>
+
+<body class='bodyclass'>
+
+	<div id='book1'>
+		<div class='name'><h3></h3></div>
+		<div class='picture'><img src=></div>
+		<div class='category'></div>
+		<div class='sellingPoints'></p><p></div>
+		<div class='price'></div>
+	</div>
+<hr>
+	<div id='book2' class='book'>
+		<div class='name'><h3></h3></div>
+		<div class='picture'><img src=></div>
+		<div class='category'></div>
+		<div class='sellingPoints'></p></p></div>
+		<div class='price'></div>
+	</div>
+<hr>
+
+	<div id='music1' class='music'>
+		<div class='name'><h3></h3></div>
+		<div class='picture'><img src=></div>
+		<div class='category'></div>
+		<div class='sellingPoints'></p><p></div>
+		<div class='price'></div>
+	</div>
+<hr>
+	<div id='music2' class='music'>
+		<div class='name'><h3></h3></div>
+		<div class='picture'><img src=></div>
+		<div class='category'></div>
+		<div class='sellingPoints'></p></p></div>
+		<div class='price'></div>
+	</div>
+
+
+
+
+
+<script type="text/javascript">
+
+var book1 = 
+{ name: "A New Earth",
+	picture: "http://progressivechristianity.org/wp/wp-content/uploads/2008/07/eckharttollenewearth.jpg",
+	category: "Self help",
+	sellingPoints: ["A New Earth: Awakening to Your Lifes Purpose is a self-help book by Eckhart Tolle. First published in 2005, it sold 5 million copies in North America by 2009."],
+	price: 6.99
+	}
+
+var book2 = 
+{ name: "Fight Club",
+	picture: "http://ecx.images-amazon.com/images/I/61uYQM9S3mL.jpg",
+	category: "Self help",
+	sellingPoints: ["In a confusing world poised on the brink of mayhem, Tyler Durden, a projectionist, waiter, and anarchic genius, comes up with an idea to create clubs in which young men can escape their humdrum existence and prove themselves in barehanded combat."],
+	price: 8.99
+	}
+
+var music1 = 
+{ name: "Like Clockwork",
+	picture: "http://cdn2.thelineofbestfit.com/media/2013/06/91VkPejVqRL._SL1500_.jpg",
+	category: "Desert rock",
+	sellingPoints: ["Like Clockwork is the sixth studio album by American rock band Queens of the Stone Age, released on June 3, 2013"],
+	price: 16.99
+	}
+
+var music2 = 
+{ name: "Hesitation Marks",
+	picture: "http://cdn4.pitchfork.com/albums/19637/homepage_large.34136cee.jpg",
+	category: "Industrial rock",
+	sellingPoints: ["Hesitation Marks is the eighth studio album by American industrial rock band Nine Inch Nails, released on September 3, 2013."],
+	price: 18.99
+	}
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+$('#book1 .name').text(book1.name)
+	
+})
+
+
+</script>
+
+
+
+</script>
 </body>
+<footer><h6>
+
+	<nav>
+		<ul>
+			<li><a href = "twitter.com">Follow us on Twitter!</a></li>
+			<li><a href="facebook.com">Facebook</a></li>
+			<li><a href="instagram.com">instagram</a></li>
+		</ul>
+	</nav>
+
+</footer>
 
 </html>

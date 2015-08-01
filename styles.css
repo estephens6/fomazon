@@ -1,3 +1,17 @@
 .bodyclass {
 	background: "blue";
 }
+#red {
+	color: red;
+}
+
+
+.name {
+	background-color: #d3d3d3;
+}
+.category {
+	background-color: yellow
+}
+.price {
+	color: red;
+}		
